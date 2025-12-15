@@ -3,3 +3,13 @@ pandas~=2.3.1
 psycopg2-binary~=2.9.10
 plotly~=6.2.0
 kafka-python~=2.2.15
+mlflow
+prophet
+scikit-learn
+schedule
+requests
+mlflow
+prophet
+scikit-learn
+schedule
+requests

@@ -12,7 +12,7 @@ conn = psycopg2.connect(
 )
 cursor = conn.cursor()
 
-# Kafka consumer setup
+# Kafka consumer
 consumer = KafkaConsumer(
     'order-events',
     bootstrap_servers='localhost:9092',

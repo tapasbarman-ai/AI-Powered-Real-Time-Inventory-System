@@ -2,10 +2,11 @@ kafka-logs/
 zookeeper-logs/
 logs/
 
-*.sql
+
 *.dump
 
 *.iml
 *.ipr
 *.iws
 *.bak
+CODE_EXPLAINED.md

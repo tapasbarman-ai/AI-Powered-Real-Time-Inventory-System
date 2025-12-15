@@ -7,8 +7,10 @@ PRODUCTS = [
     "Toothpaste", "Bathing Soap", "Maggi Noodles"
 ]
 
+import os
+
 producer = KafkaProducer(
-    bootstrap_servers='localhost:9092',
+    bootstrap_servers=os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'kafka:9092'),
     value_serializer=lambda x: json.dumps(x).encode('utf-8')
 )
 
