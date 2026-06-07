@@ -137,7 +137,7 @@ We don't just train once; we manage the lifecycle:
 For a detailed code walkthrough, see [CODE_EXPLAINED.md](./CODE_EXPLAINED.md).
 
 ```bash
-ETL-pipeline/
+AI-Powered-Real-Time-Inventory-System/
 ├── api/               # FastAPI Prediction Service
 ├── consumer/          # Kafka Consumer (Worker)
 ├── dashboard/         # Streamlit UI
